@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои продукты</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8f9fa;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        h1 {
+            margin: 0;
+            color: #007bff;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .product h2 {
+            color: #28a745;
+        }
+        .product p {
+            margin: 10px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Мои продукты</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <h2>Продукт 1</h2>
+            <p>Описание продукта 1. Этот продукт имеет множество полезных функций и характеристик, которые могут заинтересовать покупателей.</p>
+        </div>
+        <div class="product">
+            <h2>Продукт 2</h2>
+            <p>Описание продукта 2. Этот продукт имеет множество полезных функций и характеристик, которые могут заинтересовать покупателей.</p>
+        </div>
+        <div class="product">
+            <h2>Продукт 3</h2>
+            <p>Описание продукта 3. Этот продукт имеет множество полезных функций и характеристик, которые могут заинтересовать покупателей.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Контактная информация: email@example.com | Телефон: +1234567890</p>
+    </footer>
+</body>
+</html>
